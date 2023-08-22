@@ -506,6 +506,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 10px;
 }
 footer .col{
     display: flex;
@@ -653,7 +654,7 @@ footer .copyright{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 9px;
-    
+    position: right;
     height: 3rem;
     padding: 0 1.25rem;
     font-size: 14px;
@@ -681,4 +682,117 @@ footer .copyright{
     color: #fff;
     background-color: #222;
 }
+#aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+   margin-left: 5px;
+   padding-left: 5px;
+   font-size: 24px;
+   font-weight: 300;
+   
+    
+}
+
+.blog .box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .blog .box-container .box{
+    background: #fff;
+    margin: 1rem;
+    border-radius: .3rem;
+    box-shadow: 0.5rem 1rem rgba(0, 0, 0, .9);
+    overflow: hidden;
+    flex: 1 1 15rem;
+  }
+  .blog .box-container .box img{
+    height: 25rem;
+    width: 25rem;
+    object-fit: cover;
+  }
+  .blog .box-container .box .info{
+    padding: 2rem;
+  }
+  .blog .box-container .box .info h3{
+    color: var(--darkblue);
+    font-size: 1.5rem;
+  }
+  .blog .box-container .box .info h3 span{
+    color: var(--blue);
+    font-weight: bolder;
+    font-size: 1.5rem;
+  }
+  .blog .box-container .box .info p{
+    color: #666;
+    font-size: 1rem;
+    padding: 1rem 0;
+    .blog .box-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .blog .box-container .box{
+        background: #fff;
+        margin: 1rem;
+        border-radius: .5rem;
+        box-shadow: 0.5rem 1rem rgba(0, 0, 0, .9);
+        overflow: hidden;
+        flex: 1 1 15rem;
+        margin-bottom: 5px;
+      }
+      .blog .box-container .box img{
+        height: 25rem;
+        width: 25rem;
+        object-fit: cover;
+      }
+      .blog .box-container .box .info{
+        padding: 1.5rem;
+      }
+      .blog .box-container .box .info h3{
+        color: var(--darkblue);
+        font-size: 3rem;
+      }
+      .blog .box-container .box .info h3 span{
+        color: var(--blue);
+        font-weight: bolder;
+        font-size: 3rem;
+      }
+      .blog .box-container .box .info p{
+        color: #666;
+        font-size: 1.5rem;
+        padding: 1rem 0;
+      }
+  .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border: 2rem, solid black;
+    border-color: var(--darkblue);
+    color: var(--darkblue);
+    font-size: 1.7rem;
+    padding: 20rem, 3rem;
+    cursor: pointer;
+    background: none;
+    padding-left: 80px;
+  }
+  
+  .btn:hover {
+    background: var(--darkblue);
+  
+    /* border-color: var(--blue); */
+    color: green;
+  
+  }
+
+  
 
